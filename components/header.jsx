@@ -112,11 +112,11 @@ export const HeroHeader = () => {
                             </ul>
 
                             <Link
-                                href="/hacktober"
-                                className="relative text-sm font-medium text-orange-400 hover:text-orange-300 transition-all duration-200 overflow-hidden group hover:scale-105"
+                                href="/gamecon"
+                                className="relative text-sm font-medium text-red-500 hover:text-red-400 transition-all duration-200 overflow-hidden group hover:scale-105"
                             >                                
                                 <div className="absolute inset-0 rounded blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                                <span className="relative z-10 drop-shadow-sm">Hacktober</span>
+                                <span className="relative z-10 drop-shadow-sm">GameCon</span>
                             </Link>
                         </div>
 
@@ -175,15 +175,15 @@ export const HeroHeader = () => {
 <li className="overflow-hidden">
     <motion.div variants={navLinkVariants} initial="initial" animate="open">
         <Link
-            href="/hacktober"
+            href="/gamecon"
             onClick={(e) => {
                 setMenuState(false);
-                router.push('/hacktober');
+                router.push('/gamecon');
             }}
-            className="relative text-4xl font-medium text-orange-400 hover:text-orange-300 transition-all duration-200 overflow-hidden group hover:scale-105"
+            className="relative text-4xl font-medium text-red-500 hover:text-red-300 transition-all duration-200 overflow-hidden group hover:scale-105"
         >                                            
             <div className="absolute inset-0 rounded blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <span className="relative z-10 drop-shadow-sm">Hacktober</span>
+            <span className="relative z-10 drop-shadow-sm">GameCon</span>
         </Link>
     </motion.div>
 </li>
