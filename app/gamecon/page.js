@@ -1,4 +1,4 @@
-"use client";
+"use client"; 
  
 import { useState, useEffect } from "react";
 import { Trophy, Users, GitPullRequest, Star, Search, X } from "lucide-react";
