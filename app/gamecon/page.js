@@ -280,7 +280,7 @@ export default function GameCon() {
                 Event Timeline
               </h2>
               <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-                Mark your calendars and don't miss out on any of the action
+                Mark your calendars and don&apos;t miss out on any of the action
               </p>
             </div>
 
