@@ -96,6 +96,13 @@ export function HeroSection() {
 
               <div className="flex flex-row gap-3 justify-center lg:justify-start">
                 <MetalButton
+                  variant="red"
+                  onClick={() => router.push("/gamecon")}
+                  size="lg"
+                >
+                  GameCon 2025
+                </MetalButton>
+                <MetalButton
                   variant="orange"
                   onClick={() => router.push("/hacktober")}
                   size="lg"

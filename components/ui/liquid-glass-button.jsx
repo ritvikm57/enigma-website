@@ -172,6 +172,13 @@ const colorVariants = {
     textColor: "text-white",
     textShadow: "[text-shadow:_0_-1px_0_rgb(234_88_12_/_100%)]",
   },
+  red: {
+    outer: "bg-gradient-to-b from-[#9b1f1f] to-[#d14343]",
+    inner: "bg-gradient-to-b from-[#d14343] via-[#9b1f1f] to-[#d14343]",
+    button: "bg-gradient-to-b from-[#ef4444] to-[#b91c1b]",
+    textColor: "text-white",
+    textShadow: "[text-shadow:_0_-1px_0_rgb(185_28_28_/_100%)]",
+  },
   primary: {
     outer: "bg-gradient-to-b from-[#1e3a8a] to-[#3b82f6]",
     inner: "bg-gradient-to-b from-[#1e40af] via-[#1e3a8a] to-[#2563eb]",
