@@ -103,6 +103,13 @@ export function HeroSection() {
                   GameCon 2025
                 </MetalButton>
                 <MetalButton
+                  variant="orange"
+                  onClick={() => router.push("/hacktober")}
+                  size="lg"
+                >
+                  Hacktober 2025
+                </MetalButton>
+                <MetalButton
                   onClick={() =>
                     router.push("https://thesparchive.com/projectinit")
                   }
