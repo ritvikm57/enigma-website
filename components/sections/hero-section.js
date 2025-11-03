@@ -89,9 +89,17 @@ export function HeroSection() {
                 </h2>
               </div>
 
-              <p className="text-base sm:text-lg lg:text-xl leading-relaxed text-slate-300 mb-6 font-normal max-w-xl mx-auto lg:mx-0">
+              <p className="text-base sm:text-lg lg:text-xl leading-relaxed text-slate-300 mb-4 font-normal max-w-xl mx-auto lg:mx-0">
                 The official Computer Science club of Mahindra University.
                 Building the future through code, innovation, and collaboration.
+                Explore{" "}
+                <a
+                  href="/hacktober"
+                  className="text-orange-400 hover:text-orange-300 underline decoration-orange-500/50 hover:decoration-orange-400 transition-colors duration-200"
+                >
+                  Hacktober 2025
+                </a>{""}
+                , our open source fest.
               </p>
 
               <div className="flex flex-row gap-3 justify-center lg:justify-start">
@@ -101,13 +109,6 @@ export function HeroSection() {
                   size="lg"
                 >
                   GameCon 2025
-                </MetalButton>
-                <MetalButton
-                  variant="orange"
-                  onClick={() => router.push("/hacktober")}
-                  size="lg"
-                >
-                  Hacktober 2025
                 </MetalButton>
                 <MetalButton
                   onClick={() =>
