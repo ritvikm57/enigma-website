@@ -35,7 +35,7 @@ const registrationEvents = [
     id: 1,
     title: "Game Jam",
     description: "Create innovative and engaging games within a thrilling time-limited challenge.",
-    image: "/gamecon/gamejam.png",
+    image: "/gamecon/GameJam.png",
     registerUrl: "https://tally.so/r/w4WgRr",
   },
   {
@@ -152,7 +152,7 @@ export default function GameCon() {
       {/* Hero Section */}
       <section className="h-[60vh] md:h-screen relative flex items-end">
         <Image
-          src="/gamecon/gamecon.png"
+          src="/gamecon/Gamecon.png"
           alt="GameCon 2025"
           fill
           className="object-contain mt-16"
